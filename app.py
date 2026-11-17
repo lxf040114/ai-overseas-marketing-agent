@@ -72,7 +72,7 @@ tab1, tab2, tab3, tab4, tab5 = st.tabs(
 
 with tab1:
     st.subheader("候选企业打分排序（系统按五维权重计算总分）")
-    st.dataframe(SCORED, use_container_width=True)
+    st.dataframe(SCORED, width="stretch")
     st.markdown(load_md("01_潜客分析.md"))
 
 with tab2:
