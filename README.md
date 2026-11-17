@@ -36,6 +36,24 @@ pip install streamlit
 streamlit run app.py
 ```
 
+## 在线部署（Streamlit Community Cloud）
+
+代码已托管在 GitHub：https://github.com/lxf040114/ai-overseas-marketing-agent
+
+部署三步（免费、公开应用）：
+
+1. 打开 https://share.streamlit.io ，用 GitHub 账号登录；
+2. 点右上角 **Create app** → 选 **"Yup, I have an app"**；
+3. 填写 Repository `lxf040114/ai-overseas-marketing-agent`、Branch `main`、Main file path `app.py`，点 **Deploy**。
+
+也可以点 **"Paste GitHub URL"** 直接粘贴入口文件链接：
+
+```
+https://github.com/lxf040114/ai-overseas-marketing-agent/blob/main/app.py
+```
+
+`requirements.txt` 仅依赖 streamlit，冷启动很快；部署后每次 `git push` 会自动更新线上应用。
+
 ## 目录结构
 
 ```
