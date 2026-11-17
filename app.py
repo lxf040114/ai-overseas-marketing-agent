@@ -25,8 +25,10 @@ def calc_score(lead):
 def build_scored_table():
     rows = []
     for lead in LEADS:
-        d = dict(lead)
-        d["总分"] = calc_score(lead)
+        score = calc_score(lead)
+        d = {"企业": lead["企业"], "总分": score}
+        for k in ("产品", "融资", "适配", "信号", "预算", "触达", "时机"):
+            d[k] = lead[k]
         rows.append(d)
     rows.sort(key=lambda x: -x["总分"])
     return rows

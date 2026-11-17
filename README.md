@@ -59,12 +59,12 @@ https://github.com/lxf040114/ai-overseas-marketing-agent/blob/main/app.py
 ```
 ├── app.py              # Streamlit 主应用（5 个页签）
 ├── content/            # 五环节内容（Markdown）
-│   ├── 01_潜客分析.md
-│   ├── 02_联系内容.md
-│   ├── 03_服务方案.md
-│   ├── 04_任务清单.md
-│   ├── 05_交付样例.md
-│   └── 06_复盘报告.md
+│   ├── 01_潜客分析.md   # 环节 1
+│   ├── 02_联系内容.md   # 环节 2
+│   ├── 03_服务方案.md   # 环节 3
+│   ├── 04_任务清单.md   # 环节 4
+│   ├── 05_交付样例.md   # 环节 4
+│   └── 06_复盘报告.md   # 环节 5
 └── requirements.txt
 ```
 
